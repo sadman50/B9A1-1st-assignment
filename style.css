@@ -14,7 +14,6 @@ header{
 .discount{
 color: #F00;
 text-align: center;
-font-family: Inter;
 font-size: 88px;
 font-style: normal;
 font-weight: 700;
@@ -57,6 +56,7 @@ font-weight: 90
     font-weight: 90
 }
 
+
 .year{
 
         top: 50%;
@@ -65,12 +65,28 @@ font-weight: 90
 }
 .banner-text {
     position: absolute;
-    top: 50%;
+    top: 25%;
     width: 100%;
     text-align: center;
     font-size: 24px;
     color: white;
   }
+.banner-text p{
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.banner-text h1{
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 95px;
+}
   .add{
     text-align: center;
     font-size: 30px;
@@ -127,6 +143,101 @@ line-height:normal;
     line-height:0; 
 
 }
+.middle{
+    text-align: center;
+    font-size: 30px;
+}
+#holiday{
+    color: #F00;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+.holiday-sale{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+.mail{
+    text-align: center;
+}
+.button-2{
+    background:  red;
+    border: #FFF;
+    color: #FFF;
+    padding: 15px;
+    font-size: 20px;
+    border-radius: 0 500px 500px 0;
+    width: 210px;
+    height: 72px;
+}
+.portfolio-text{
+    text-align: left;
+
+}
+#gift{
+    color: #F00;
+
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+#example{
+color: rgba(7, 2, 17, 0.60);
+
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px; /* 160% */
+}
+.portfolio{
+    width: 400px;
+    margin: auto auto;
+}
+.portfolio img{
+    width: 100%;
+    height: auto;
+    align-items: center;
+    transition: all 1s;
+}
+.portfolio-image:hover img{
+    transform: scale(1.2);
+    border-radius: 500px;
+}
+#our{
+    color: #070211;
+
+    font-family: Merriweather;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 10px;
+    text-transform: capitalize;
+}
+
+#email{
+    background:  rgb(255, 255, 255);
+    border: none;
+    color: #000000;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 500px 0px 0px 500px;
+    width: 210px;
+    height: 48px;
+}
+#mail-text{
+    font-size: 35px;
+}
 
 .div-container{
     position: relative;
@@ -139,10 +250,9 @@ line-height:normal;
 #group2{
     background-image: url(img/Rectangle\ 1.png);
     background-repeat: no-repeat;
-    display: 
 }
 #gorup1 #group2{
-    justify-content: space-between
+    justify-content: space-between;
 
 }
 footer{
