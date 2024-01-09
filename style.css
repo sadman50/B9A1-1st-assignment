@@ -68,7 +68,8 @@ font-weight: 90
     top: 50%;
     width: 100%;
     text-align: center;
-    font-size: 18px;
+    font-size: 24px;
+    color: white;
   }
   .add{
     text-align: center;
@@ -85,6 +86,65 @@ font-weight: 90
     color: white;
     padding: 15px;
   }
+.OFFER{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .image img{
+    height: 300px;
+    width: 300px;
+    border: 15px solid red;
+    border-radius: 200px;
+  }
+  .nyear{
+    color: #F00;
+    font-size: 88px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 0px;
+  }
+.new{
+color: #F00;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height:0;
+}
+.launch{
+color: rgb(7, 7, 7);
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height:normal;
+}
+.soon{
+    color: rgb(0, 0, 0);
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 500;
+    line-height:0; 
+
+}
+
+.div-container{
+    position: relative;
+}
+
+#group1{
+    display: flex;
+    position:relative;
+}
+#group2{
+    background-image: url(img/Rectangle\ 1.png);
+    background-repeat: no-repeat;
+    display: 
+}
+#gorup1 #group2{
+    justify-content: space-between
+
+}
 footer{
     position: relative;
     background: #070211;
